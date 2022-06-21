@@ -23,9 +23,12 @@ public class EmployeeDao {
 	}
 	
 	public List<Employee> findAll() {
+		//grab the session
+		Session ses = HibernateUtil.getSession();
+		//make an HQL - hibernate Query Language: odd mix of OOP & native
+		List<Employee> emps = ses.createQuery("from Employee", Employee.class).list();
 		
-		
-		
+		return emps;
 	}
 	
 	public boolean delete(int id) {
