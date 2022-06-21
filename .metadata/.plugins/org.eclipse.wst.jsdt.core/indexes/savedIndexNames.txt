@@ -1,0 +1,5 @@
+INDEX VERSION 1.4+/Users/jesusmoreno/Documents/my-notes-week-3/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+2322987274.index
+2213061808.index
+800207809.index
+823763239.index
