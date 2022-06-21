@@ -22,7 +22,7 @@
       </property>
       
       <property name = "hibernate.connection.password">
-        postgres
+        Saturn
       </property>
       
       <property name="hibernate.default_schema">public</property>
@@ -41,7 +41,7 @@
       <property name="hibernate.show_sql">true</property>
       
       <!-- List of persistent classes -->
-      <mapping class = ""/>
+      <mapping class = "com.revature.models.Employee"/>
       
       
    </session-factory>
